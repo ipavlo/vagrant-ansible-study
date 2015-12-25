@@ -1,0 +1,19 @@
+---
+- hosts: all
+  roles:
+  - Common
+  - ConsulServer
+  - ConsulAgent  
+  
+- hosts: WebServers
+  roles:
+  - WebServer
+  
+- hosts: WebLoadBalancers
+  roles:
+  - LoadBalancer
+  
+- hosts: MasterDbServers
+  roles:
+  - DbServer
+ 

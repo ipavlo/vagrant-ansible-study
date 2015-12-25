@@ -1,0 +1,4 @@
+---
+
+ - name: say hello from c role
+   shell: echo 'Hello'

@@ -1,0 +1,4 @@
+---
+
+- name: LoadBalancer role
+  shell: echo "Hello from LoadBalancer role"

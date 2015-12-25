@@ -1,0 +1,4 @@
+---
+
+- name: ConsulServer role
+  shell: echo "Hello from ConsulAgent role"

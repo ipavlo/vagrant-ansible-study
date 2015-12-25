@@ -1,0 +1,4 @@
+---
+
+- name: WebServer role
+  shell: echo "Hello from WebServer role"

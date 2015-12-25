@@ -1,0 +1,4 @@
+---
+
+- name: DbServer role
+  shell: echo "Hello from DbServer role"
